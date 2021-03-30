@@ -1,0 +1,87 @@
+.container{
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    grid-column-gap: 40px;
+    align-items: center;
+}
+
+.container button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    outline: none;
+}
+
+.container button:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 730px) and (max-width: 970px) {
+
+    .container button{
+        width: 150px;
+        height: 50px;
+        font-size: 16px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        outline: none;
+    }
+
+    .container button:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+
+}
+
+@media only screen and (min-width: 536px) and (max-width: 730px) {
+
+    .container button{
+        width: 100px;
+        height: 50px;
+        font-size: 14px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        outline: none;
+    }
+
+    .container button:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+
+}
+
+
+@media only screen and (min-width: 0px) and (max-width: 536px) {
+
+    .container button{
+        width: 70px;
+        height: 50px;
+        font-size: 12px;
+        background-color: red;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        outline: none;
+    }
+
+    .container button:hover{
+        background-color: gray;
+        cursor: pointer;
+    }
+
+}
